@@ -4,7 +4,7 @@ int main() {
     int kor, eng, mat, sum = 0;
     double avg = 0.0;
 
-    printf("±¹¾î ¿µ¾î ¼öÇĞ Á¡¼ö: ");
+    printf("Â±Â¹Â¾Ã® Â¿ÂµÂ¾Ã® Â¼Ã¶Ã‡Ã ÃÂ¡Â¼Ã¶: ");
     scanf("%lf %lf %lf", &kor, &eng, &mat);
     sum = kor + eng + mat;
 
