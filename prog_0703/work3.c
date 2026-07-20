@@ -3,14 +3,14 @@
 
 int main() {
     double n;
-    printf("½Ç¼ö °ª ÀÔ·Â: ");
+    printf("ì‹¤ìˆ˜ ê°’ ìž…ë ¥: ");
     scanf("%lf", &n);
 
     if (n < 0) {
         n = -n;
-        printf("%lfÀÇ Á¦°ö±Ù : %.2lf\n", sqrt(n));
+        printf("%lfì˜ ì œê³±ê·¼ : %.2lf\n", sqrt(n));
     }
-    else printf("%lfÀÇ Á¦°ö±Ù: %.2lf\n", n, sqrt(n));
+    else printf("%lfì˜ ì œê³±ê·¼: %.2lf\n", n, sqrt(n));
 
     return 0;
 }
